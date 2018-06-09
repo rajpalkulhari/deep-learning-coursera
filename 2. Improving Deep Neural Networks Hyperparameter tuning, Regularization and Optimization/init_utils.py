@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import h5py
 import sklearn
 import sklearn.datasets
+import scipy
 
 def sigmoid(x):
     """
@@ -242,3 +243,66 @@ def load_dataset():
     test_X = test_X.T
     test_Y = test_Y.reshape((1, test_Y.shape[0]))
     return train_X, train_Y, test_X, test_Y
+
+def load_2D_dataset():
+    data = scipy.io.loadmat('Data/data.mat')
+    train_X = data['X'].T
+    train_Y = data['y'].T
+    test_X = data['Xval'].T
+    test_Y = data['yval'].T
+
+    plt.scatter(train_X[0, :], train_X[1, :], c=np.squeeze(train_Y), s=40, cmap=plt.cm.Spectral);
+    
+    return train_X, train_Y, test_X, test_Y
+
+def load_planar_dataset(randomness, seed):
+    
+    np.random.seed(seed)
+    
+    m = 50
+    N = int(m/2) # number of points per class
+    D = 2 # dimensionality
+    X = np.zeros((m,D)) # data matrix where each row is a single example
+    Y = np.zeros((m,1), dtype='uint8') # labels vector (0 for red, 1 for blue)
+    a = 2 # maximum ray of the flower
+
+    for j in range(2):
+        
+        ix = range(N*j,N*(j+1))
+        if j == 0:
+            t = np.linspace(j, 4*3.1415*(j+1),N) #+ np.random.randn(N)*randomness # theta
+            r = 0.3*np.square(t) + np.random.randn(N)*randomness # radius
+        if j == 1:
+            t = np.linspace(j, 2*3.1415*(j+1),N) #+ np.random.randn(N)*randomness # theta
+            r = 0.2*np.square(t) + np.random.randn(N)*randomness # radius
+            
+        X[ix] = np.c_[r*np.cos(t), r*np.sin(t)]
+        Y[ix] = j
+        
+    X = X.T
+    Y = Y.T
+
+    return X, Y
+
+def initialize_parameters(layer_dims):
+    np.random.seed(3)
+    parameters = {}
+    L = len(layer_dims) # number of layers in the network
+
+    for l in range(1, L):
+        parameters['W' + str(l)] = np.random.randn(layer_dims[l], layer_dims[l-1]) / np.sqrt(layer_dims[l-1])
+        parameters['b' + str(l)] = np.zeros((layer_dims[l], 1))
+        
+        assert(parameters['W' + str(l)].shape == layer_dims[l], layer_dims[l-1])
+        assert(parameters['W' + str(l)].shape == layer_dims[l], 1)
+
+        
+    return parameters
+
+def compute_cost(a3, Y):
+    m = Y.shape[1]
+    
+    logprobs = np.multiply(-np.log(a3),Y) + np.multiply(-np.log(1 - a3), 1 - Y)
+    cost = 1./m * np.nansum(logprobs)
+    
+    return cost
