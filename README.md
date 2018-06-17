@@ -43,6 +43,6 @@ This repo contains all the programming assignments I have done regarding this sp
 
 - Course 4: Convolutional Neural Networks
 
-    - [PA1 - Convolution Neural Netwrok - Step by Step](https://github.com/rajpalkulhari/deep-learning-coursera/blob/master/3.%20Convolutional%20Neural%20Networks/1.%20CNN%20-%20Step%20by%20step.ipynb)
+    - [PA1 - Convolution Neural Netwrok - Step by Step](https://github.com/rajpalkulhari/deep-learning-coursera/blob/master/4.%20Convolutional%20Neural%20Networks/1.%20CNN%20-%20Step%20by%20step.ipynb)
 
 
