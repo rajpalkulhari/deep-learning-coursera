@@ -45,4 +45,6 @@ This repo contains all the programming assignments I have done regarding this sp
 
     - [PA1 - Convolution Neural Netwrok - Step by Step](https://github.com/rajpalkulhari/deep-learning-coursera/blob/master/4.%20Convolutional%20Neural%20Networks/1.%20CNN%20-%20Step%20by%20step.ipynb)
 
+    - [PA2 - Convolutional Neural Networks: Application TensorFlow](https://github.com/rajpalkulhari/deep-learning-coursera/blob/master/4.%20Convolutional%20Neural%20Networks/2.%20CNN%20Applications%20-%20TensorFlow.ipynb)
+
 

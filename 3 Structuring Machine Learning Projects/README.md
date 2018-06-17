@@ -1,1 +1,0 @@
-This Week doesn't have any PA
