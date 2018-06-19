@@ -47,4 +47,14 @@ This repo contains all the programming assignments I have done regarding this sp
 
     - [PA2 - Convolutional Neural Networks: Application TensorFlow](https://github.com/rajpalkulhari/deep-learning-coursera/blob/master/4.%20Convolutional%20Neural%20Networks/2.%20CNN%20Applications%20-%20TensorFlow.ipynb)
 
+    - [PA3 - Keras Tutorial - the Happy House](https://github.com/rajpalkulhari/deep-learning-coursera/blob/master/4.%20Convolutional%20Neural%20Networks/3.%20Keras%20Tutorial%20-%20the%20Happy%20House.ipynb)
+
+    - [PA4 - Residual Networks]()
+
+- Course 5: Sequence Models
+
+    - [PA1 - Building a Recurrent Neural Network - Step by Step]()
+
+    - [PA2 - Character level language model - Dinosaurus land]()
+
 
