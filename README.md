@@ -49,7 +49,13 @@ This repo contains all the programming assignments I have done regarding this sp
 
     - [PA3 - Keras Tutorial - the Happy House](https://github.com/rajpalkulhari/deep-learning-coursera/blob/master/4.%20Convolutional%20Neural%20Networks/3.%20Keras%20Tutorial%20-%20the%20Happy%20House.ipynb)
 
-    - [PA4 - Residual Networks]()
+    - [PA4 - Residual Networks](https://github.com/rajpalkulhari/deep-learning-coursera/blob/master/4.%20Convolutional%20Neural%20Networks/4.%20Residual%20Network%20(ResNet50).ipynb)
+
+    - [PA5 - Autonomous driving application](https://github.com/rajpalkulhari/deep-learning-coursera/blob/master/4.%20Convolutional%20Neural%20Networks/5.%20Object%20Detection%20-%20Autonomous%20driving%20application.ipynb)
+
+    - [PA6 - Face Recognition](https://github.com/rajpalkulhari/deep-learning-coursera/blob/master/4.%20Convolutional%20Neural%20Networks/6.%20Image%20recognition.ipynb)
+
+    - [PA7 - Art Generation with Neural Style Transfer](https://github.com/rajpalkulhari/deep-learning-coursera/blob/master/4.%20Convolutional%20Neural%20Networks/7.%20Art%20Generation%20with%20Neural%20Style%20Transfer.ipynb)
 
 - Course 5: Sequence Models
 
