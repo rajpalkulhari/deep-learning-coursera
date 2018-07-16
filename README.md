@@ -59,8 +59,12 @@ This repo contains all the programming assignments I have done regarding this sp
 
 - Course 5: Sequence Models
 
-    - [PA1 - Building a Recurrent Neural Network - Step by Step]()
+    - [PA1 - Building a Recurrent Neural Network - Step by Step](https://github.com/rajpalkulhari/deep-learning-coursera/blob/master/5.%20Sequence%20Models/1.%20Building%20a%20Recurrent%20Neural%20Network%20-%20Step%20by%20Step.ipynb)
 
-    - [PA2 - Character level language model - Dinosaurus land]()
+    - [PA2 - Character level language model - Dinosaurus land](https://github.com/rajpalkulhari/deep-learning-coursera/blob/master/5.%20Sequence%20Models/2.%20Character%20level%20language%20model.ipynb)
+
+    - [PA4 - Operation on Word vectors](https://github.com/rajpalkulhari/deep-learning-coursera/blob/master/5.%20Sequence%20Models/4.%20Operation%20on%20Word%20vectors.ipynb)
+
+    - [PA5 - Emojify](https://github.com/rajpalkulhari/deep-learning-coursera/blob/master/5.%20Sequence%20Models/5.%20Emojify.ipynb)
 
 
