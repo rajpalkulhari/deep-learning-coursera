@@ -67,4 +67,6 @@ This repo contains all the programming assignments I have done regarding this sp
 
     - [PA5 - Emojify](https://github.com/rajpalkulhari/deep-learning-coursera/blob/master/5.%20Sequence%20Models/5.%20Emojify.ipynb)
 
+    - [PA6 - Machine translation with Attention](https://github.com/rajpalkulhari/deep-learning-coursera/blob/master/5.%20Sequence%20Models/6.%20Machine%20translation%20with%20Attention.ipynb)
+
 
